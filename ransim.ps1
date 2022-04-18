@@ -1,5 +1,6 @@
 ﻿cls
 #Banner
+Write-Host "                                                "
 Write-Host "██████╗  █████╗ ███╗   ██╗███████╗██╗███╗   ███╗" -ForegroundColor DarkYellow
 Write-Host "██╔══██╗██╔══██╗████╗  ██║██╔════╝██║████╗ ████║" -ForegroundColor DarkYellow
 Write-Host "██████╔╝███████║██╔██╗ ██║███████╗██║██╔████╔██║" -ForegroundColor DarkYellow
