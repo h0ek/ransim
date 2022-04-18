@@ -7,7 +7,7 @@ This script simulates the behavior of ransomware, mass creating files, changing 
 
 If you run the script it will start two test.
 1. First test is to create folder in location C:\ransim1. Inside folder create 1k txt files with test content. Then it will mass change extension from .txt to .ransim.
-2. Secon test is to create folder in location C:\ransim2. Inside folder create 1k txt files with test content. Then it will mass modify file content and change extension from .txt to .ransim.
+2. Second test is to create folder in location C:\ransim2. Inside folder create 1k txt files with test content. Then it will mass modify file content and change extension from .txt to .ransim.
 
 
 If folder ransim1 or ransim2 exists it will delete it and start again.
