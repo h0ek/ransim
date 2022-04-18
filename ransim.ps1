@@ -6,11 +6,12 @@ Write-Host "██████╔╝███████║██╔██╗ �
 Write-Host "██╔══██╗██╔══██║██║╚██╗██║╚════██║██║██║╚██╔╝██║" -ForegroundColor DarkYellow
 Write-Host "██║  ██║██║  ██║██║ ╚████║███████║██║██║ ╚═╝ ██║" -ForegroundColor DarkYellow
 Write-Host "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═╝     ╚═╝" -ForegroundColor DarkYellow
-Write-Host "                                                "
+Write-Host "Ransomware simulation from 0ut3r.space          " -ForegroundColor DarkYellow
 Write-Host "                                                "
 Write-Host "-----------Simulation no.1 start----------------" -ForegroundColor Green
 Write-Host "                                                "
-Write-Host "Create 1k files and change extension            " -ForegroundColor Green
+Write-Host "Create 1k txt files and mass change extension   " -ForegroundColor Green
+Write-Host "from txt to ransim                              " -ForegroundColor Green
 Write-Host "                                                "
 #Test folder location
 $Folder1 = 'C:\ransim1\'
@@ -25,7 +26,7 @@ GCI $Folder1 | Remove-Item -Force
 Write-Output "No test folder, creating one"
     mkdir $Folder1 | Out-Null
 }
-#Create 1000 files with text
+#Create 1000 files with text "RansomwareTest" inside
 Write-Output "Creating 1k test txt files with test content"
 1..1000 | ForEach-Object {
     Out-File -InputObject 'RansomwareTest' -FilePath $Folder1\TestTextFile$_.txt
@@ -61,3 +62,4 @@ Write-Output "Replace extension from .txt to .ransim and modify file content"
 Write-Host "                                                "
 Write-Host "Ransomware simulation 2 complete                " -ForegroundColor DarkYellow
 Write-Host "                                                "
+cd ..
