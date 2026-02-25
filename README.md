@@ -12,6 +12,7 @@ This tool is designed **ONLY** for:
 - Testing security software in isolated lab environments
 - Understanding ransomware behavior
 - Practicing incident response
+- SIEM/EDR detection
 
 **DO NOT USE** on production systems or without explicit permission.
 
