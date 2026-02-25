@@ -1,6 +1,6 @@
 # RANSIM - Ransomware Simulation Tool
 
-![ransim](screen.png)
+![ransim](screen.webp)
 
 A **benign ransomware simulation tool** for educational and testing purposes. This PowerShell script generates test files, encrypts them using AES-256-GCM, and provides decryption capabilities. **This is NOT real malware** – it's a safe simulation for learning and testing security solutions.
 
